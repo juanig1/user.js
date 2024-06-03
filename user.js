@@ -1265,3 +1265,46 @@ user_pref("security.ssl3.dhe_dss_camellia_256_sha",		false);
 // https://twitter.com/bwesterb/status/1748017372764475519
 // https://pq.cloudflareresearch.com/
 user_pref("security.tls.enable_kyber",				true);
+
+
+//CUSTOM
+user_pref("media.navigator.enabled",				true);
+user_pref("media.navigator.video.enabled",			true);
+user_pref("media.getusermedia.screensharing.enabled",		true);
+user_pref("media.getusermedia.audiocapture.enabled",		true);
+user_pref("toolkit.cosmeticAnimations.enabled", false);
+
+// At least one of these two must be enabled
+user_pref("privacy.resistFingerprinting",			false);
+user_pref("privacy.fingerprintingProtection", true);
+user_pref("privacy.fingerprintingProtection.pbmode", true);
+user_pref("privacy.fingerprintingProtection.overrides", "+AllTargets,-CSSPrefersColorScheme,-JSDateTimeUTC");
+
+user_pref("dom.security.https_only_mode",			false);
+user_pref("security.password_lifetime",				30);
+user_pref("browser.urlbar.autocomplete.enabled",		true);
+user_pref("layout.css.visited_links_enabled",			true);
+user_pref("browser.urlbar.autoFill",				true);
+user_pref("browser.urlbar.autoFill.typed",			true);
+user_pref("network.cookie.lifetimePolicy",			0);
+user_pref("browser.privatebrowsing.autostart",			false);
+user_pref("privacy.firstparty.isolate",				false);
+user_pref("network.cookie.cookieBehavior",			0);
+user_pref("browser.urlbar.suggest.history",			true);
+user_pref("privacy.globalprivacycontrol.enabled",		false);
+user_pref("browser.display.use_document_fonts",			1);
+user_pref("keyword.enabled",					true);
+user_pref("clipboard.autocopy",					true);
+user_pref("dom.allow_cut_copy", true);
+user_pref("dom.event.clipboardevents.enabled",			true);
+user_pref("media.navigator.enabled",				true);
+user_pref("media.navigator.video.enabled",			true);
+user_pref("media.getusermedia.screensharing.enabled",		true);
+user_pref("media.getusermedia.audiocapture.enabled",		true);
+user_pref("media.peerconnection.enabled",			true);
+user_pref("dom.webaudio.enabled",				true);
+user_pref("privacy.clearOnShutdown.cookies",			true);
+user_pref("privacy.clearOnShutdown.downloads",			true);
+user_pref("privacy.clearOnShutdown.history",			false); user_pref("privacy.clearOnShutdown.sessions",			false);
+user_pref("privacy.clearOnShutdown.openWindows",		false);
+user_pref("places.history.enabled",				true);
