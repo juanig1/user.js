@@ -1308,4 +1308,4 @@ user_pref("privacy.clearOnShutdown.downloads",			true);
 user_pref("privacy.clearOnShutdown.history",			false); user_pref("privacy.clearOnShutdown.sessions",			false);
 user_pref("privacy.clearOnShutdown.openWindows",		false);
 user_pref("places.history.enabled",				true);
-user_pref("browser.sessionstore.max_tabs_undo",		1);
+user_pref("browser.sessionstore.max_tabs_undo",		25);
